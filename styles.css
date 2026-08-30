@@ -1,0 +1,80 @@
+/* Selector universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body como selector y ley de herencia (todo el texto se centra por herencia) */
+body {
+    background-color: #d7dde5;
+    color: #17263c;
+    text-align: center;
+}
+
+/* Selector de ID */
+#header-principal {
+    background-color: #17263c;
+    color: #d7dde5;
+    padding: 30px;
+}
+
+/* Selector de clase */
+.subtitulo {
+    color: #aebed1;
+    margin: 10px;
+}
+
+/* Selector descendiente */
+main section {
+    background-color: #edf0f3;
+    padding: 25px;
+    margin: 15px;
+}
+
+/* Selector de elemento */
+h2 {
+    color: #28496f;
+    margin: 10px;
+}
+
+/* Combinador de hermano adyacente */
+h2 + p {
+    color: #405775;
+}
+
+/* Combinador de hermanos generales */
+h3 ~ ul {
+    background-color: #d7dde5;
+    padding: 20px;
+}
+
+.auto-historico {
+    background-color: #c7d1dd;
+    padding: 15px;
+    margin: 10px;
+}
+
+.auto-argentino {
+    background-color: #b8c6d6;
+    padding: 15px;
+    margin: 10px;
+}
+
+.contenedor-media {
+    background-color: #d7dde5;
+    padding: 15px;
+    margin: 10px;
+}
+
+/* Selector de elemento (la playlist y el mapa) */
+iframe {
+    width: 100%;
+    height: 352px;
+}
+
+footer {
+    background-color: #17263c;
+    color: #d7dde5;
+    padding: 20px;
+}
